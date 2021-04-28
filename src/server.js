@@ -11,8 +11,6 @@ app.use(express.json()) // we need to tell server to use json as well
 app.use(routes) // tells the server to use the routes in routes.js
 
 
-
-
 const port = process.env.PORT ||3000
 app.listen(port, () => {
     console.log("The api is running..." +port)
